@@ -14,3 +14,4 @@ It is implemented using Javalin and JPA
 5. Request the `http://localhost:7070/hotels` endpoint in your browser to see the list of hotels and rooms
 6. Use the dev.http file to test the routes, GET/POST/PUT/DELETE requests are available
 
+Now get the thing deployed!
