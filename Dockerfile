@@ -2,7 +2,7 @@
 FROM amazoncorretto:17-alpine
 
 # Copy the jar file into the image
-COPY ./app.jar /app.jar
+COPY target/app.jar /app.jar
 
 # Expose the port your app runs on
 EXPOSE 7070
