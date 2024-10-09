@@ -13,3 +13,18 @@ It is implemented using Javalin and JPA
 4. See the routes in your browser at `http://localhost:7070/routes`
 5. Request the `http://localhost:7070/hotels` endpoint in your browser to see the list of hotels and rooms
 6. Use the dev.http file to test the routes, GET/POST/PUT/DELETE requests are available
+
+## Docker commands
+
+```bash
+docker-compose up -d
+docker-compose down
+docker logs -f  watchtower
+docker logs watchtower
+docker logs hotelAPI
+docker logs db
+docker container ls
+docker rmi <image_id>
+docker stop <container_id>
+docker rm <container_id>
+```
